@@ -11,3 +11,6 @@ A detailed derivation of the algorithm and a video are in the **doc** folder of 
 
 **Video**
 <https://github.com/ydsf16/IMUOrientationEstimator/blob/master/doc/IMUOrientationEstimator.mp4>
+
+** run **
+./RunRosbag ./data/2020-06-05-15-10-54.bag

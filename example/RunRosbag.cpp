@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
 
     // Play Data
     const std::string rosbag_path = argv[1];
-    const std::string kImuTopic = "/imu0";
+    const std::string kImuTopic = "/imu/data";
     rosbag::Bag bag;
     bag.open(rosbag_path);  // BagMode is Read by default
     for (rosbag::MessageInstance const m : rosbag::View(bag)) {
